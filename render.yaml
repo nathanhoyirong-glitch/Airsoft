@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: airsoft-arena
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: node server.js
-    healthCheckPath: /healthz
